@@ -1,5 +1,5 @@
 {
-    "driver": [
+    "drivers": [
         {
             "id": 1,
             "name": "Carlos",
@@ -11,12 +11,13 @@
             "name": "Paco",
             "age": 32,
             "email": "paco@vw.com"
-        },
+        }
+    ],
+    "crafters": [
         {
-            "id": 3,
-            "name": "Beto",
-            "age": 40,
-            "email": "beto@vw.com"
+            "id": 1,
+            "model": "VW Crafter",
+            "plates": "FGH 7548"
         }
     ]
 }
