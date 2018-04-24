@@ -1,135 +1,143 @@
 {
-  "drivers": [
-    {
-      "id": 2,
-      "name": "Bure",
-      "age": 32,
-      "email": "bure@vw.com"
-    },
-    {
-      "id": 3,
-      "name": "Andrés",
-      "age": 32,
-      "email": "andres@vw.com"
-    },
-    {
-      "name": "Angel",
-      "age": "21",
-      "email": "angel@vw.com",
-      "id": 4
-    }
-  ],
-  "crafters": [
-    {
-      "id": 1,
-      "model": "VW Crafter",
-      "plates": "FGH 7548",
-      "year": 2015,
-      "start": "2015-03-10",
-      "capacity": 20,
-      "passengers": 0,
-      "batteries": [
+    "drivers": [
         {
-          "brand": "LTH",
-          "date": "2015-03-10",
-          "model": "Max charge"
+            "id": 2,
+            "name": "Bure",
+            "age": 32,
+            "email": "bure@vw.com",
+            "password": "secret",
+            "statistics": {
+                "braking": [10, 5, 12],
+                "speed": [28, 25, 30],
+                "delay": [5, 6, 8]
+            }
         },
         {
-          "brand": "LTH",
-          "date": "2018-04-18",
-          "model": "Max charge"
+            "id": 3,
+            "name": "Andrés",
+            "age": 32,
+            "email": "andres@vw.com",
+            "password": "secret"
+        },
+        {
+            "name": "Angel",
+            "age": "21",
+            "email": "angel@vw.com",
+            "password": "secret",
+            "id": 4
         }
-      ],
-      "fuel_reffils": [
+    ],
+    "crafters": [
         {
-          "type": "Premium",
-          "date": "2018-04-12 20:00"
+            "id": 1,
+            "model": "VW Crafter",
+            "plates": "FGH 7548",
+            "year": 2015,
+            "start": "2015-03-10",
+            "capacity": 20,
+            "passengers": 0,
+            "batteries": [
+                {
+                    "brand": "LTH",
+                    "date": "2015-03-10",
+                    "model": "Max charge"
+                },
+                {
+                    "brand": "LTH",
+                    "date": "2018-04-18",
+                    "model": "Max charge"
+                }
+            ],
+            "fuel_reffils": [
+                {
+                    "type": "Premium",
+                    "date": "2018-04-12 20:00"
+                },
+                {
+                    "type": "Magna",
+                    "date": "2018-03-27 20:00"
+                },
+                {
+                    "type": "Magna",
+                    "date": "2018-03-12 20:00"
+                }
+            ]
         },
         {
-          "type": "Magna",
-          "date": "2018-03-27 20:00"
+            "id": 2,
+            "model": "VW Crafter",
+            "plates": "HGT 4569",
+            "year": 2015,
+            "start": "2015-03-10",
+            "capacity": 20,
+            "passengers": 0,
+            "batteries": [
+                {
+                    "brand": "LTH",
+                    "date": "2015-03-10",
+                    "model": "Max charge"
+                }
+            ],
+            "fuel_reffils": [
+                {
+                    "type": "Premium",
+                    "date": "2018-04-12 20:00"
+                },
+                {
+                    "type": "Magna",
+                    "date": "2018-03-9 20:00"
+                },
+                {
+                    "type": "Premium",
+                    "date": "2018-03-8 20:00"
+                },
+                {
+                    "type": "Magna",
+                    "date": "2018-03-20 20:00"
+                },
+                {
+                    "type": "Magna",
+                    "date": "2018-03-12 20:00"
+                }
+            ]
         },
         {
-          "type": "Magna",
-          "date": "2018-03-12 20:00"
+            "id": 3,
+            "model": "VW Crafter",
+            "plates": "KHY 1234",
+            "year": 2016,
+            "start": "2016-03-10",
+            "capacity": 20,
+            "passengers": 0,
+            "batteries": [
+                {
+                    "brand": "LTH",
+                    "date": "2016-03-10",
+                    "model": "Max charge"
+                }
+            ],
+            "fuel_reffils": [
+                {
+                    "type": "Premium",
+                    "date": "2018-04-12 20:00"
+                },
+                {
+                    "type": "Magna",
+                    "date": "2018-03-9 20:00"
+                },
+                {
+                    "type": "Premium",
+                    "date": "2018-03-8 20:00"
+                },
+                {
+                    "type": "Magna",
+                    "date": "2018-03-20 20:00"
+                },
+                {
+                    "type": "Magna",
+                    "date": "2018-03-12 20:00"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "id": 2,
-      "model": "VW Crafter",
-      "plates": "HGT 4569",
-      "year": 2015,
-      "start": "2015-03-10",
-      "capacity": 20,
-      "passengers": 0,
-      "batteries": [
-        {
-          "brand": "LTH",
-          "date": "2015-03-10",
-          "model": "Max charge"
-        }
-      ],
-      "fuel_reffils": [
-        {
-          "type": "Premium",
-          "date": "2018-04-12 20:00"
-        },
-        {
-          "type": "Magna",
-          "date": "2018-03-9 20:00"
-        },
-        {
-          "type": "Premium",
-          "date": "2018-03-8 20:00"
-        },
-        {
-          "type": "Magna",
-          "date": "2018-03-20 20:00"
-        },
-        {
-          "type": "Magna",
-          "date": "2018-03-12 20:00"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "model": "VW Crafter",
-      "plates": "KHY 1234",
-      "year": 2016,
-      "start": "2016-03-10",
-      "capacity": 20,
-      "passengers": 0,
-      "batteries": [
-        {
-          "brand": "LTH",
-          "date": "2016-03-10",
-          "model": "Max charge"
-        }
-      ],
-      "fuel_reffils": [
-        {
-          "type": "Premium",
-          "date": "2018-04-12 20:00"
-        },
-        {
-          "type": "Magna",
-          "date": "2018-03-9 20:00"
-        },
-        {
-          "type": "Premium",
-          "date": "2018-03-8 20:00"
-        },
-        {
-          "type": "Magna",
-          "date": "2018-03-20 20:00"
-        },
-        {
-          "type": "Magna",
-          "date": "2018-03-12 20:00"
-        }
-      ]
-    }
-  ]
+    ]
 }
