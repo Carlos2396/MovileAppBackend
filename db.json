@@ -139,5 +139,28 @@
                 }
             ]
         }
+    ],
+    "alerts": [
+        {
+            "type": "Accidente",
+            "priority": "Alta",
+            "message": "Dos carriles bloqueados por el choque.",
+            "lat": 19.456456,
+            "lng": -90.144789
+        },
+        {
+            "type": "Calle cerrada",
+            "priority": "Baja",
+            "message": "Av. margaritas está cerrada por reparaciones.",
+            "lat": 19.123548,
+            "lng": -92.144789
+        },
+        {
+            "type": "Tráfico",
+            "priority": "Baja",
+            "message": null,
+            "lat": 19.874569,
+            "lng": -91.144789
+        }
     ]
 }
