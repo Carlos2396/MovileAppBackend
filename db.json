@@ -142,6 +142,7 @@
     ],
     "alerts": [
         {
+            "id": 1,
             "type": "Accidente",
             "priority": "Alta",
             "message": "Dos carriles bloqueados por el choque.",
@@ -149,6 +150,7 @@
             "lng": -90.144789
         },
         {
+            "id": 2,
             "type": "Calle cerrada",
             "priority": "Baja",
             "message": "Av. margaritas está cerrada por reparaciones.",
@@ -156,6 +158,7 @@
             "lng": -92.144789
         },
         {
+            "id": 3,
             "type": "Tráfico",
             "priority": "Baja",
             "message": null,
