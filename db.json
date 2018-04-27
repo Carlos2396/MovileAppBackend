@@ -7,9 +7,34 @@
             "email": "bure@vw.com",
             "password": "secret",
             "statistics": {
-                "braking": [10, 5, 12],
-                "speed": [28, 25, 30],
-                "delay": [5, 6, 8]
+                "braking": [
+                    {
+                        "repetitions": 10,
+                        "date": "2018-03-05"
+                    },
+                    {
+                        "repetitions": 10,
+                        "date": "2018-03-06"
+                    },
+                    {
+                        "repetitions": 10,
+                        "date": "2018-03-07"
+                    }
+                ],
+                "delay": [
+                    {
+                        "minutes": 15,
+                        "date": "2018-03-05"
+                    },
+                    {
+                        "minutes": 18,
+                        "date": "2018-03-06"
+                    },
+                    {
+                        "minutes": 20,
+                        "date": "2018-03-07"
+                    }
+                ]
             }
         },
         {
@@ -17,14 +42,74 @@
             "name": "Andrés",
             "age": 32,
             "email": "andres@vw.com",
-            "password": "secret"
+            "password": "secret",
+            "statistics": {
+                "braking": [
+                    {
+                        "repetitions": 10,
+                        "date": "2018-03-05"
+                    },
+                    {
+                        "repetitions": 10,
+                        "date": "2018-03-06"
+                    },
+                    {
+                        "repetitions": 10,
+                        "date": "2018-03-07"
+                    }
+                ],
+                "delay": [
+                    {
+                        "minutes": 15,
+                        "date": "2018-03-05"
+                    },
+                    {
+                        "minutes": 18,
+                        "date": "2018-03-06"
+                    },
+                    {
+                        "minutes": 20,
+                        "date": "2018-03-07"
+                    }
+                ]
+            }
         },
         {
             "name": "Angel",
             "age": "21",
             "email": "angel@vw.com",
             "password": "secret",
-            "id": 4
+            "id": 4,
+            "statistics": {
+                "braking": [
+                    {
+                        "repetitions": 10,
+                        "date": "2018-03-05"
+                    },
+                    {
+                        "repetitions": 10,
+                        "date": "2018-03-06"
+                    },
+                    {
+                        "repetitions": 10,
+                        "date": "2018-03-07"
+                    }
+                ],
+                "delay": [
+                    {
+                        "minutes": 15,
+                        "date": "2018-03-05"
+                    },
+                    {
+                        "minutes": 18,
+                        "date": "2018-03-06"
+                    },
+                    {
+                        "minutes": 20,
+                        "date": "2018-03-07"
+                    }
+                ]
+            }
         }
     ],
     "crafters": [
@@ -51,15 +136,28 @@
             "fuel_reffils": [
                 {
                     "type": "Premium",
-                    "date": "2018-04-12 20:00"
+                    "datetime": "2018-03-12 20:00",
+                    "liters": 40.5
                 },
                 {
                     "type": "Magna",
-                    "date": "2018-03-27 20:00"
+                    "datetime": "2018-03-22 20:00",
+                    "liters": 20
+                },
+                {
+                    "type": "Premium",
+                    "datetime": "2018-03-29 20:00",
+                    "liters": 38.5
                 },
                 {
                     "type": "Magna",
-                    "date": "2018-03-12 20:00"
+                    "datetime": "2018-04-7 20:00",
+                    "liters": 40
+                },
+                {
+                    "type": "Magna",
+                    "date": "2018-03-16 20:00",
+                    "liters": 39
                 }
             ]
         },
@@ -81,23 +179,28 @@
             "fuel_reffils": [
                 {
                     "type": "Premium",
-                    "date": "2018-04-12 20:00"
+                    "datetime": "2018-03-12 20:00",
+                    "liters": 40.5
                 },
                 {
                     "type": "Magna",
-                    "date": "2018-03-9 20:00"
+                    "datetime": "2018-03-22 20:00",
+                    "liters": 20
                 },
                 {
                     "type": "Premium",
-                    "date": "2018-03-8 20:00"
+                    "datetime": "2018-03-29 20:00",
+                    "liters": 38.5
                 },
                 {
                     "type": "Magna",
-                    "date": "2018-03-20 20:00"
+                    "datetime": "2018-04-7 20:00",
+                    "liters": 40
                 },
                 {
                     "type": "Magna",
-                    "date": "2018-03-12 20:00"
+                    "date": "2018-03-16 20:00",
+                    "liters": 39
                 }
             ]
         },
@@ -119,23 +222,28 @@
             "fuel_reffils": [
                 {
                     "type": "Premium",
-                    "date": "2018-04-12 20:00"
+                    "datetime": "2018-03-12 20:00",
+                    "liters": 40.5
                 },
                 {
                     "type": "Magna",
-                    "date": "2018-03-9 20:00"
+                    "datetime": "2018-03-22 20:00",
+                    "liters": 20
                 },
                 {
                     "type": "Premium",
-                    "date": "2018-03-8 20:00"
+                    "datetime": "2018-03-29 20:00",
+                    "liters": 38.5
                 },
                 {
                     "type": "Magna",
-                    "date": "2018-03-20 20:00"
+                    "datetime": "2018-04-7 20:00",
+                    "liters": 40
                 },
                 {
                     "type": "Magna",
-                    "date": "2018-03-12 20:00"
+                    "date": "2018-03-16 20:00",
+                    "liters": 39
                 }
             ]
         }
@@ -147,7 +255,8 @@
             "priority": "Alta",
             "message": "Dos carriles bloqueados por el choque.",
             "lat": 19.456456,
-            "lng": -90.144789
+            "lng": -90.144789,
+            "datetime": "2018-05-20 20:00"
         },
         {
             "id": 2,
@@ -155,7 +264,8 @@
             "priority": "Baja",
             "message": "Av. margaritas está cerrada por reparaciones.",
             "lat": 19.123548,
-            "lng": -92.144789
+            "lng": -92.144789,
+            "datetime": "2018-05-27 20:00"
         },
         {
             "id": 3,
@@ -163,7 +273,8 @@
             "priority": "Baja",
             "message": null,
             "lat": 19.874569,
-            "lng": -91.144789
+            "lng": -91.144789,
+            "datetime": "2018-05-20 18:00"
         }
     ]
 }
