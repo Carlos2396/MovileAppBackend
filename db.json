@@ -19,7 +19,7 @@
         {
             "id": 3,
             "name": "Angel",
-            "age": "21",
+            "age": 21,
             "email": "angel@vw.com",
             "password": "secret",
             "rating": 5
