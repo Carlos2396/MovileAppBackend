@@ -5,21 +5,24 @@
             "name": "Bure",
             "age": 32,
             "email": "bure@vw.com",
-            "password": "secret"
+            "password": "secret",
+            "rating": 4
         },
         {
             "id": 2,
             "name": "Andrés",
             "age": 32,
             "email": "andres@vw.com",
-            "password": "secret"
+            "password": "secret",
+            "rating": 3
         },
         {
             "id": 3,
             "name": "Angel",
             "age": "21",
             "email": "angel@vw.com",
-            "password": "secret"
+            "password": "secret",
+            "rating": 5
         }
     ],
     "brakes": [
