@@ -1,115 +1,119 @@
 {
     "drivers": [
         {
-            "id": 2,
+            "id": 1,
             "name": "Bure",
             "age": 32,
             "email": "bure@vw.com",
-            "password": "secret",
-            "statistics": {
-                "braking": [
-                    {
-                        "repetitions": 10,
-                        "date": "2018-03-05"
-                    },
-                    {
-                        "repetitions": 10,
-                        "date": "2018-03-06"
-                    },
-                    {
-                        "repetitions": 10,
-                        "date": "2018-03-07"
-                    }
-                ],
-                "delay": [
-                    {
-                        "minutes": 15,
-                        "date": "2018-03-05"
-                    },
-                    {
-                        "minutes": 18,
-                        "date": "2018-03-06"
-                    },
-                    {
-                        "minutes": 20,
-                        "date": "2018-03-07"
-                    }
-                ]
-            }
+            "password": "secret"
         },
         {
-            "id": 3,
+            "id": 2,
             "name": "Andrés",
             "age": 32,
             "email": "andres@vw.com",
-            "password": "secret",
-            "statistics": {
-                "braking": [
-                    {
-                        "repetitions": 10,
-                        "date": "2018-03-05"
-                    },
-                    {
-                        "repetitions": 10,
-                        "date": "2018-03-06"
-                    },
-                    {
-                        "repetitions": 10,
-                        "date": "2018-03-07"
-                    }
-                ],
-                "delay": [
-                    {
-                        "minutes": 15,
-                        "date": "2018-03-05"
-                    },
-                    {
-                        "minutes": 18,
-                        "date": "2018-03-06"
-                    },
-                    {
-                        "minutes": 20,
-                        "date": "2018-03-07"
-                    }
-                ]
-            }
+            "password": "secret"
         },
         {
+            "id": 3,
             "name": "Angel",
             "age": "21",
             "email": "angel@vw.com",
-            "password": "secret",
-            "id": 4,
-            "statistics": {
-                "braking": [
-                    {
-                        "repetitions": 10,
-                        "date": "2018-03-05"
-                    },
-                    {
-                        "repetitions": 10,
-                        "date": "2018-03-06"
-                    },
-                    {
-                        "repetitions": 10,
-                        "date": "2018-03-07"
-                    }
-                ],
-                "delay": [
-                    {
-                        "minutes": 15,
-                        "date": "2018-03-05"
-                    },
-                    {
-                        "minutes": 18,
-                        "date": "2018-03-06"
-                    },
-                    {
-                        "minutes": 20,
-                        "date": "2018-03-07"
-                    }
-                ]
-            }
+            "password": "secret"
+        }
+    ],
+    "brakes": [
+        {
+            "driverId": 1,
+            "repetitions": 10,
+            "date": "2018-03-07"
+        },
+        {
+            "driverId": 1,
+            "repetitions": 10,
+            "date": "2018-03-05"
+        },
+        {
+            "driverId": 1,
+            "repetitions": 10,
+            "date": "2018-03-06"
+        },
+        {
+            "driverId": 2,
+            "repetitions": 10,
+            "date": "2018-03-05"
+        },
+        {
+            "driverId": 2,
+            "repetitions": 10,
+            "date": "2018-03-06"
+        },
+        {
+            "driverId": 2,
+            "repetitions": 10,
+            "date": "2018-03-07"
+        },
+        {
+            "driverId": 3,
+            "repetitions": 10,
+            "date": "2018-03-05"
+        },
+        {
+            "driverId": 3,
+            "repetitions": 10,
+            "date": "2018-03-06"
+        },
+        {
+            "driverId": 3,
+            "repetitions": 10,
+            "date": "2018-03-07"
+        }
+    ],
+    "delays": [
+        {
+            "driverId": 1,
+            "minutes": 15,
+            "date": "2018-03-05"
+        },
+        {
+            "driverId": 1,
+            "minutes": 18,
+            "date": "2018-03-06"
+        },
+        {
+            "driverId": 1,
+            "minutes": 20,
+            "date": "2018-03-07"
+        },
+        {
+            "driverId": 2,
+            "minutes": 15,
+            "date": "2018-03-05"
+        },
+        {
+            "driverId": 2,
+            "minutes": 18,
+            "date": "2018-03-06"
+        },
+        {
+            "driverId": 2,
+            "minutes": 20,
+            "date": "2018-03-07"
+        },
+        {
+            "driverId": 3,
+            "minutes": 15,
+            "date": "2018-03-05"
+        },
+        {
+            "driverId": 3,
+            "minutes": 18,
+            "date": "2018-03-06"
+        },
+        {
+            "driverId": 3,
+            "minutes": 20,
+            "date": "2018-03-07"
         }
     ],
     "crafters": [
