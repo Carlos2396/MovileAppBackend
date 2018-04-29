@@ -1,287 +1,314 @@
 {
-    "drivers": [
+  "drivers": [
+    {
+      "id": 1,
+      "name": "Bure",
+      "age": 32,
+      "email": "bure@vw.com",
+      "password": "secret",
+      "rating": 4,
+      "createdAt": "2018-04-21-27 17:20:00"
+    },
+    {
+      "id": 2,
+      "name": "Andrés",
+      "age": 32,
+      "email": "andres@vw.com",
+      "password": "secret",
+      "rating": 3,
+      "createdAt": "2018-04-21-27 17:20:00"
+    },
+    {
+      "id": 3,
+      "name": "Angel",
+      "age": 21,
+      "email": "angel@vw.com",
+      "password": "secret",
+      "rating": 5,
+      "createdAt": "2018-04-21-27 17:20:00"
+    },
+    {
+      "name": "Carlos",
+      "age": "32",
+      "email": "carlos@vw.com",
+      "password": "secret",
+      "rating": "4",
+      "id": 4
+    }
+  ],
+  "statistics": [
+    {
+      "driverId": 1,
+      "type": "brake",
+      "value": 10,
+      "date": "2018-03-07"
+    },
+    {
+      "driverId": 1,
+      "type": "brake",
+      "value": 10,
+      "date": "2018-03-05"
+    },
+    {
+      "driverId": 1,
+      "type": "brake",
+      "value": 10,
+      "date": "2018-03-06"
+    },
+    {
+      "driverId": 2,
+      "type": "brake",
+      "value": 10,
+      "date": "2018-03-05"
+    },
+    {
+      "driverId": 2,
+      "type": "brake",
+      "value": 10,
+      "date": "2018-03-06"
+    },
+    {
+      "driverId": 2,
+      "type": "brake",
+      "value": 10,
+      "date": "2018-03-07"
+    },
+    {
+      "driverId": 3,
+      "type": "brake",
+      "value": 10,
+      "date": "2018-03-05"
+    },
+    {
+      "driverId": 3,
+      "type": "brake",
+      "value": 10,
+      "date": "2018-03-06"
+    },
+    {
+      "driverId": 3,
+      "type": "brake",
+      "value": 10,
+      "date": "2018-03-07"
+    },
+    {
+      "driverId": 1,
+      "type": "delay",
+      "value": 15,
+      "date": "2018-03-05"
+    },
+    {
+      "driverId": 1,
+      "type": "delay",
+      "value": 18,
+      "date": "2018-03-06"
+    },
+    {
+      "driverId": 1,
+      "type": "delay",
+      "value": 20,
+      "date": "2018-03-07"
+    },
+    {
+      "driverId": 2,
+      "type": "delay",
+      "value": 15,
+      "date": "2018-03-05"
+    },
+    {
+      "driverId": 2,
+      "type": "delay",
+      "value": 18,
+      "date": "2018-03-06"
+    },
+    {
+      "driverId": 2,
+      "type": "delay",
+      "value": 20,
+      "date": "2018-03-07"
+    },
+    {
+      "driverId": 3,
+      "type": "delay",
+      "value": 15,
+      "date": "2018-03-05"
+    },
+    {
+      "driverId": 3,
+      "type": "delay",
+      "value": 18,
+      "date": "2018-03-06"
+    },
+    {
+      "driverId": 3,
+      "type": "delay",
+      "value": 20,
+      "date": "2018-03-07"
+    }
+  ],
+  "crafters": [
+    {
+      "id": 1,
+      "model": "VW Crafter",
+      "plates": "FGH 7548",
+      "year": 2015,
+      "start": "2015-03-10",
+      "capacity": 20,
+      "passengers": 0,
+      "batteries": [
         {
-            "id": 1,
-            "name": "Bure",
-            "age": 32,
-            "email": "bure@vw.com",
-            "password": "secret",
-            "rating": 4
+          "brand": "LTH",
+          "date": "2015-03-10",
+          "model": "Max charge"
         },
         {
-            "id": 2,
-            "name": "Andrés",
-            "age": 32,
-            "email": "andres@vw.com",
-            "password": "secret",
-            "rating": 3
-        },
-        {
-            "id": 3,
-            "name": "Angel",
-            "age": 21,
-            "email": "angel@vw.com",
-            "password": "secret",
-            "rating": 5
+          "brand": "LTH",
+          "date": "2018-04-18",
+          "model": "Max charge"
         }
-    ],
-    "brakes": [
+      ],
+      "fuel_reffils": [
         {
-            "driverId": 1,
-            "repetitions": 10,
-            "date": "2018-03-07"
+          "type": "Premium",
+          "datetime": "2018-03-12 20:00",
+          "liters": 40.5
         },
         {
-            "driverId": 1,
-            "repetitions": 10,
-            "date": "2018-03-05"
+          "type": "Magna",
+          "datetime": "2018-03-22 20:00",
+          "liters": 20
         },
         {
-            "driverId": 1,
-            "repetitions": 10,
-            "date": "2018-03-06"
+          "type": "Premium",
+          "datetime": "2018-03-29 20:00",
+          "liters": 38.5
         },
         {
-            "driverId": 2,
-            "repetitions": 10,
-            "date": "2018-03-05"
+          "type": "Magna",
+          "datetime": "2018-04-7 20:00",
+          "liters": 40
         },
         {
-            "driverId": 2,
-            "repetitions": 10,
-            "date": "2018-03-06"
-        },
-        {
-            "driverId": 2,
-            "repetitions": 10,
-            "date": "2018-03-07"
-        },
-        {
-            "driverId": 3,
-            "repetitions": 10,
-            "date": "2018-03-05"
-        },
-        {
-            "driverId": 3,
-            "repetitions": 10,
-            "date": "2018-03-06"
-        },
-        {
-            "driverId": 3,
-            "repetitions": 10,
-            "date": "2018-03-07"
+          "type": "Magna",
+          "datetime": "2018-03-16 20:00",
+          "liters": 39
         }
-    ],
-    "delays": [
+      ]
+    },
+    {
+      "id": 2,
+      "model": "VW Crafter",
+      "plates": "HGT 4569",
+      "year": 2015,
+      "start": "2015-03-10",
+      "capacity": 20,
+      "passengers": 0,
+      "batteries": [
         {
-            "driverId": 1,
-            "minutes": 15,
-            "date": "2018-03-05"
-        },
-        {
-            "driverId": 1,
-            "minutes": 18,
-            "date": "2018-03-06"
-        },
-        {
-            "driverId": 1,
-            "minutes": 20,
-            "date": "2018-03-07"
-        },
-        {
-            "driverId": 2,
-            "minutes": 15,
-            "date": "2018-03-05"
-        },
-        {
-            "driverId": 2,
-            "minutes": 18,
-            "date": "2018-03-06"
-        },
-        {
-            "driverId": 2,
-            "minutes": 20,
-            "date": "2018-03-07"
-        },
-        {
-            "driverId": 3,
-            "minutes": 15,
-            "date": "2018-03-05"
-        },
-        {
-            "driverId": 3,
-            "minutes": 18,
-            "date": "2018-03-06"
-        },
-        {
-            "driverId": 3,
-            "minutes": 20,
-            "date": "2018-03-07"
+          "brand": "LTH",
+          "date": "2015-03-10",
+          "model": "Max charge"
         }
-    ],
-    "crafters": [
+      ],
+      "fuel_reffils": [
         {
-            "id": 1,
-            "model": "VW Crafter",
-            "plates": "FGH 7548",
-            "year": 2015,
-            "start": "2015-03-10",
-            "capacity": 20,
-            "passengers": 0,
-            "batteries": [
-                {
-                    "brand": "LTH",
-                    "date": "2015-03-10",
-                    "model": "Max charge"
-                },
-                {
-                    "brand": "LTH",
-                    "date": "2018-04-18",
-                    "model": "Max charge"
-                }
-            ],
-            "fuel_reffils": [
-                {
-                    "type": "Premium",
-                    "datetime": "2018-03-12 20:00",
-                    "liters": 40.5
-                },
-                {
-                    "type": "Magna",
-                    "datetime": "2018-03-22 20:00",
-                    "liters": 20
-                },
-                {
-                    "type": "Premium",
-                    "datetime": "2018-03-29 20:00",
-                    "liters": 38.5
-                },
-                {
-                    "type": "Magna",
-                    "datetime": "2018-04-7 20:00",
-                    "liters": 40
-                },
-                {
-                    "type": "Magna",
-                    "datetime": "2018-03-16 20:00",
-                    "liters": 39
-                }
-            ]
+          "type": "Premium",
+          "datetime": "2018-03-12 20:00",
+          "liters": 40.5
         },
         {
-            "id": 2,
-            "model": "VW Crafter",
-            "plates": "HGT 4569",
-            "year": 2015,
-            "start": "2015-03-10",
-            "capacity": 20,
-            "passengers": 0,
-            "batteries": [
-                {
-                    "brand": "LTH",
-                    "date": "2015-03-10",
-                    "model": "Max charge"
-                }
-            ],
-            "fuel_reffils": [
-                {
-                    "type": "Premium",
-                    "datetime": "2018-03-12 20:00",
-                    "liters": 40.5
-                },
-                {
-                    "type": "Magna",
-                    "datetime": "2018-03-22 20:00",
-                    "liters": 20
-                },
-                {
-                    "type": "Premium",
-                    "datetime": "2018-03-29 20:00",
-                    "liters": 38.5
-                },
-                {
-                    "type": "Magna",
-                    "datetime": "2018-04-7 20:00",
-                    "liters": 40
-                },
-                {
-                    "type": "Magna",
-                    "datetime": "2018-03-16 20:00",
-                    "liters": 39
-                }
-            ]
+          "type": "Magna",
+          "datetime": "2018-03-22 20:00",
+          "liters": 20
         },
         {
-            "id": 3,
-            "model": "VW Crafter",
-            "plates": "KHY 1234",
-            "year": 2016,
-            "start": "2016-03-10",
-            "capacity": 20,
-            "passengers": 0,
-            "batteries": [
-                {
-                    "brand": "LTH",
-                    "date": "2016-03-10",
-                    "model": "Max charge"
-                }
-            ],
-            "fuel_reffils": [
-                {
-                    "type": "Premium",
-                    "datetime": "2018-03-12 20:00",
-                    "liters": 40.5
-                },
-                {
-                    "type": "Magna",
-                    "datetime": "2018-03-22 20:00",
-                    "liters": 20
-                },
-                {
-                    "type": "Premium",
-                    "datetime": "2018-03-29 20:00",
-                    "liters": 38.5
-                },
-                {
-                    "type": "Magna",
-                    "datetime": "2018-04-7 20:00",
-                    "liters": 40
-                },
-                {
-                    "type": "Magna",
-                    "datetime": "2018-03-16 20:00",
-                    "liters": 39
-                }
-            ]
+          "type": "Premium",
+          "datetime": "2018-03-29 20:00",
+          "liters": 38.5
+        },
+        {
+          "type": "Magna",
+          "datetime": "2018-04-7 20:00",
+          "liters": 40
+        },
+        {
+          "type": "Magna",
+          "datetime": "2018-03-16 20:00",
+          "liters": 39
         }
-    ],
-    "alerts": [
+      ]
+    },
+    {
+      "id": 3,
+      "model": "VW Crafter",
+      "plates": "KHY 1234",
+      "year": 2016,
+      "start": "2016-03-10",
+      "capacity": 20,
+      "passengers": 0,
+      "batteries": [
         {
-            "id": 1,
-            "type": "Accidente",
-            "priority": "Alta",
-            "message": "Dos carriles bloqueados por el choque.",
-            "lat": 19.456456,
-            "lng": -90.144789,
-            "datetime": "2018-05-20 20:00"
-        },
-        {
-            "id": 2,
-            "type": "Calle cerrada",
-            "priority": "Baja",
-            "message": "Av. margaritas está cerrada por reparaciones.",
-            "lat": 19.123548,
-            "lng": -92.144789,
-            "datetime": "2018-05-27 20:00"
-        },
-        {
-            "id": 3,
-            "type": "Tráfico",
-            "priority": "Baja",
-            "message": null,
-            "lat": 19.874569,
-            "lng": -91.144789,
-            "datetime": "2018-05-20 18:00"
+          "brand": "LTH",
+          "date": "2016-03-10",
+          "model": "Max charge"
         }
-    ]
+      ],
+      "fuel_reffils": [
+        {
+          "type": "Premium",
+          "datetime": "2018-03-12 20:00",
+          "liters": 40.5
+        },
+        {
+          "type": "Magna",
+          "datetime": "2018-03-22 20:00",
+          "liters": 20
+        },
+        {
+          "type": "Premium",
+          "datetime": "2018-03-29 20:00",
+          "liters": 38.5
+        },
+        {
+          "type": "Magna",
+          "datetime": "2018-04-7 20:00",
+          "liters": 40
+        },
+        {
+          "type": "Magna",
+          "datetime": "2018-03-16 20:00",
+          "liters": 39
+        }
+      ]
+    }
+  ],
+  "alerts": [
+    {
+      "id": 1,
+      "type": "Accidente",
+      "priority": "Alta",
+      "message": "Dos carriles bloqueados por el choque.",
+      "lat": 19.456456,
+      "lng": -90.144789,
+      "datetime": "2018-05-20 20:00"
+    },
+    {
+      "id": 2,
+      "type": "Calle cerrada",
+      "priority": "Baja",
+      "message": "Av. margaritas está cerrada por reparaciones.",
+      "lat": 19.123548,
+      "lng": -92.144789,
+      "datetime": "2018-05-27 20:00"
+    },
+    {
+      "id": 3,
+      "type": "Tráfico",
+      "priority": "Baja",
+      "message": null,
+      "lat": 19.874569,
+      "lng": -91.144789,
+      "datetime": "2018-05-20 18:00"
+    }
+  ]
 }
