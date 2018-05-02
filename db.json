@@ -326,7 +326,7 @@
       "message": "Dos carriles bloqueados por el choque.",
       "lat": 19.456456,
       "lng": -90.144789,
-      "datetime": "2018-05-20 20:00"
+      "datetime": "2018-05-02 07:38"
     },
     {
       "id": 2,
@@ -335,7 +335,7 @@
       "message": "Av. margaritas está cerrada por reparaciones.",
       "lat": 19.123548,
       "lng": -92.144789,
-      "datetime": "2018-05-27 20:00"
+      "datetime": "2018-05-02 09:42"
     },
     {
       "id": 3,
@@ -344,7 +344,7 @@
       "message": "Muy cargado en periférico y la 11.",
       "lat": 19.874569,
       "lng": -91.144789,
-      "datetime": "2018-05-20 18:00"
+      "datetime": "2018-05-02 13:06"
     }
   ]
 }
