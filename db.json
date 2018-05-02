@@ -305,7 +305,7 @@
       "id": 3,
       "type": "Tráfico",
       "priority": "Baja",
-      "message": null,
+      "message": "Muy cargado en periférico y la 11.",
       "lat": 19.874569,
       "lng": -91.144789,
       "datetime": "2018-05-20 18:00"
